@@ -1,0 +1,397 @@
+@media (min-width: 1366px) and (max-width: 1900px) {
+	.icon-btn {
+		width: 35%;
+		transform: scale(1);
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1365px) {
+	.icon-btn {
+		width: 40%;
+		transform: scale(1.1);
+	}
+	.end-block {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+	.text-infa-block {
+		width: 40em;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+	.decisions-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0 5% 0 5%;
+	}
+	.infa-block {
+		margin: 10%;
+	}
+	.icon-btn {
+		width: 60%;
+		transform: scale(0.8);
+	}
+	.subscrib {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.head-sub {
+		margin: 0 auto; 
+	}
+	.mail {
+		margin: 0 auto;
+	}
+	.get {
+		overflow-x: hidden;
+	}
+	.img-page {
+		position: relative;
+		width: 100vw;
+	}
+	.end-block {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+	.text-infa-block {
+		width: 29em;
+	}
+	.footer-content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 5%;
+	}
+	.info-footer {
+		width: 40em;
+	}
+}
+
+@media (max-width: 1366px) and (min-width: 801px) {
+	.menu ul {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		margin-right: 10%;
+		list-style: none;
+	}
+	.decisions-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.infa-block {
+		margin: 10%;
+	}
+	.for-get {
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		margin: 0 auto;
+	}
+	.get {
+		overflow-x: hidden;
+	}
+	.img-page {
+		position: relative;
+		width: 100vw;
+	}
+	.payment {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center; 
+		width: 90%;
+	}
+	.pay-block {
+		margin: 1.6em;
+	}
+	.image-block {
+		transform: scale(1);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		height: 33em;
+	}
+	.footer-content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 5%;
+	}
+	.info-footer {
+		width: 40em;
+	}	
+}
+
+@media (min-width: 801px) {
+	.wrapper { display: none; }	
+}
+
+@media (max-width: 800px) {
+	html { 
+		font-size: 0.9em;
+	}
+	.main-head {
+		width: 85%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.visible-lg { display: none; }
+	.logo { scale: 0.7; }
+	.button-buy {
+		position: relative;
+		right: 45px;
+		width: 9em;
+		height: 2.1em;
+		font-size: 1.1em;
+		margin: 0 auto;
+	}
+	.app {
+		font-size: 6.5em;
+		font-weight: 700;
+	}
+	.btn {
+		width: 25em;
+		height: 4em;
+		font-size: 1.3em;
+		text-decoration: none;
+		text-align: center;
+	}
+	.for-editor {
+		font-size: 4em;
+		font-weight: 700;
+		line-height: 1.2em;
+		text-align: center;
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+	}
+	.description {
+		width: 80%;
+	}
+	.icon-btn {
+		width: 80%;
+		transform: scale(0.9);
+	}
+	.for-get {
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		margin: 0 auto;
+	}
+	.text-for-get {
+		font-size: 4em;
+		width: 70%;
+		text-align: center;
+	}
+	.get {
+		overflow-x: hidden;
+	}
+	.img-page {
+		position: relative;
+		width: 100vw;
+	}
+	.decisions-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.infa-block {
+		margin: 10%;
+	}
+	.network {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.payment {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center; 
+		align-items: center;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.subscrib {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.head-sub {
+		margin: 0 auto; 
+	}
+	.mail {
+		margin: 0 auto;
+	}
+	.end-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.text-infa-block {
+		width: 29em;
+	}
+	.footer-content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 5%;
+	}
+	.info-footer {
+		width: 25em;
+	}
+}	
+
+@media (max-width: 800px) and (min-width: 320px) {
+	html { 
+		font-size: 0.7em;
+		margin: 0 auto;
+		width: 100vw;
+	}
+	.main-head {
+		width: 85%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.logo {
+		transform: scale(0.9);
+	}
+	.visible-lg { display: none; }
+	.button-buy {
+		position: relative;
+		width: 9em;
+		height: 2.1em;
+		font-size: 1.1em;
+	}
+	.app {
+		font-size: 5em;
+		font-weight: 700;
+	}
+	.btn {
+		width: 25em;
+		height: 4em;
+		font-size: 1em;
+		text-decoration: none;
+		text-align: center;
+	}
+	.for-editor {
+		font-size: 3em;
+		font-weight: 700;
+		line-height: 1.2em;
+		text-align: center;
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+	}
+	.description {
+		width: 80%;
+	}
+	.icon-btn {
+		width: 500px;
+		transform: scale(0.7);
+	}
+	.decisions-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.infa-block {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 15px;
+	}
+	.block-one {
+		transform: scale(0.8);
+		margin-right: 0;	
+	}
+	.for-get {
+		position: relative;
+		display: flex;
+		justify-content: center;
+	}
+	.text-for-get {
+		font-size: 3em;
+		width: 84%;
+		text-align: center;
+	}
+	.get {
+		overflow-x: hidden;
+	}
+	.img-page {
+		position: relative;
+		width: 100vw;
+	}
+	.recall-head {
+		text-align: center;
+		transform: scale(0.9); 
+	}
+	.network {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+	}
+	.head-sub {
+		text-align: center;
+	}
+	.mail {
+		transform: scale(0.8);
+	}
+	.end-block {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+	.text-infa-block {
+		width: 28em;
+	}
+	.footer-content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 5%;
+	}
+	.info-footer {
+		width: 25em;
+	}
+}
+
